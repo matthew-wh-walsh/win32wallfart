@@ -1,0 +1,20 @@
+** FILES **
+
+setupWallFArt.exe	the windows installation
+
+README.win32		this file
+wallfart_setup.nsi	the NSIS setup script
+wallfart_winbin		directory containing all the constituent binaries
+
+** NOTES **
+
+1) The wallfart.exe binary was created using a MinGW (Minimalist GNU for Windows) development environment on a Windows 7 machine (32 bit Windows on a 64 bit machine).
+	https://osdn.net/projects/mingw/
+
+2) I used precompiled gtk+-2.0 development libraries. 
+	https://gtk-win.sourceforge.net
+
+3) The setup program was created using the Nullsoft Scriptable Install System (NSIS). 
+	https://nsis.sourceforge.net
+
+
